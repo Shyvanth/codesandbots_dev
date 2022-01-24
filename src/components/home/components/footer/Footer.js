@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import logo from "../../asserts/codesandbots logo.svg";
 import footerImage from "../../asserts/images/footer_image.svg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useHistory } from "react-router";
 
 function Footer() {
@@ -40,7 +40,9 @@ function Footer() {
           </div>
           <div className="footer_socialmedia_icons">
             <div className="footer_socialmedia_icon">
+            <a href="https://instagram.com/codesandbots_?utm_medium=copy_link">
               <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
             </div>
             <div className="footer_socialmedia_icon">
               <i class="fa fa-youtube-play" aria-hidden="true"></i>
@@ -49,7 +51,10 @@ function Footer() {
               <i class="fa fa-linkedin-square" aria-hidden="true"></i>
             </div>
             <div className="footer_socialmedia_icon">
-              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              
+              <i class="fa fa-twitter-square" ></i>
+
+              
             </div>
             <div className="footer_socialmedia_icon">
               <i class="fa fa-facebook-official" aria-hidden="true"></i>

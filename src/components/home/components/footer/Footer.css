@@ -67,6 +67,8 @@
 .footer_socialmedia_icon {
     padding: calc(2px + 1vw);
     font-size: 1.5rem;
+    background-color: rgb(180, 140, 140);
+    
 }
 
 .footer_right img {
