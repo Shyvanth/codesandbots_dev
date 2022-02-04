@@ -67,7 +67,7 @@
 .footer_socialmedia_icon {
     padding: calc(2px + 1vw);
     font-size: 1.5rem;
-    background-color: rgb(180, 140, 140);
+    
     
 }
 
@@ -146,6 +146,22 @@
 font-size: calc(8px + 1.1vw);
 }
 }
+a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }
+  
 
 @media (max-width:275px){
     .footer_right img{

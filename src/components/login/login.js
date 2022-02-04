@@ -455,7 +455,7 @@ function Login() {
                 <h4>
                   <span>OR</span>
                 </h4>
-                {/* <div className="icons">
+                 <div className="icons">
                                     <div className='icon'>
                                         <i className="fab fa-google"></i>
                                     </div>
@@ -465,7 +465,7 @@ function Login() {
                                     <div className='icon'>
                                         <i className="fab fa-twitter"></i>
                                     </div>
-                                </div> */}
+                                </div> 
                 <p className="already-acc" onClick={handleclick}>
                   Create An Account
                 </p>

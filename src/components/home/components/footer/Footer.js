@@ -4,6 +4,14 @@ import logo from "../../asserts/codesandbots logo.svg";
 import footerImage from "../../asserts/images/footer_image.svg";
 import { Link, NavLink } from "react-router-dom";
 import { useHistory } from "react-router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+
 
 function Footer() {
   let history = useHistory();
@@ -40,24 +48,33 @@ function Footer() {
           </div>
           <div className="footer_socialmedia_icons">
             <div className="footer_socialmedia_icon">
-            <a href="https://instagram.com/codesandbots_?utm_medium=copy_link">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
+            <a href="https://instagram.com/codesandbots_?utm_medium=copy_link"
+        className="instagram social">
+        <FontAwesomeIcon icon={faInstagram} size="1x" />
+      </a>
             </div>
+
+            
             <div className="footer_socialmedia_icon">
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <a href="https://www.youtube.com/"
+        className="youtube social">
+        <FontAwesomeIcon icon={faYoutube} size="1x" />
+      </a>
             </div>
-            <div className="footer_socialmedia_icon">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </div>
+            
             <div className="footer_socialmedia_icon">
               
-              <i class="fa fa-twitter-square" ></i>
+            <a href="https://www.twitter.com/" className="twitter social">
+        <FontAwesomeIcon icon={faTwitter} size="1x" />
+      </a>
 
               
             </div>
             <div className="footer_socialmedia_icon">
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <a href="https://www.facebook.com/"
+        className="facebook social">
+        <FontAwesomeIcon icon={faFacebook} size="1x" />
+      </a>
             </div>
           </div>
         </div>
